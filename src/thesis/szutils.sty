@@ -1,4 +1,4 @@
-\ProvidesPackage{szutils}  
+\ProvidesPackage{szutils}
 
 \usepackage[headheight=13pt,top=0.9cm,bottom=2.5cm,left=3cm,right=2cm,includehead,includefoot]{geometry}
 \usepackage{booktabs}%
@@ -7,7 +7,8 @@
 \usepackage{amsfonts}%数学公式
 \usepackage[dvips]{graphicx}%图片包
 \usepackage{color}%
-\usepackage[super,square,compress,sort]{natbib}%参考文献样式
+%\usepackage[super,square,compress,sort]{natbib}%参考文献样式
+\usepackage{gbt7714} %这里把参考文献样式改成了国标 GB/T 7714-2015
 \usepackage[linesnumbered,boxed,ruled,commentsnumbered]{algorithm2e}%%算法
 \usepackage{float}
 \usepackage{setspace}%调整行间距
@@ -31,13 +32,13 @@ citecolor=black
 %页眉页脚
 \usepackage{fancyhdr}
 \pagestyle{fancy}
-\lhead{} 
-\chead{深圳大学本科毕业论文 \quad 融合内容信息的单类协同过滤推荐算法研究}  
-\rhead{} 
-\lfoot{} 
+\lhead{}
+\chead{深圳大学本科毕业论文 \quad 融合内容信息的单类协同过滤推荐算法研究}
+\rhead{}
+\lfoot{}
 \cfoot{}
-\rfoot{} 
-\renewcommand{\headrulewidth}{0.4pt} 
+\rfoot{}
+\renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\headwidth}{\textwidth}
 \renewcommand{\footrulewidth}{0pt}
 
@@ -76,8 +77,3 @@ citecolor=black
 
 
 \endinput
-
-
-
-
-
